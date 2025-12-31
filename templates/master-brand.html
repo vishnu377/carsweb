@@ -1,1 +1,141 @@
 <!-- templates/master-brand.html placeholder -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags (Adjust according to the brand) -->
+    <title>Brand Name Cars in India 2026 - Price, Models & Upcoming Cars | Auto News</title>
+    <meta name="description" content="Explore the complete lineup of Brand Name cars in India. Check latest prices, new model launches, expert reviews, and upcoming EV models.">
+    
+    <!-- CSS Links (Going back 1 level to reach assets) -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/main-style.css">
+
+    <style>
+        .brand-hero { background: #fff; border-bottom: 1px solid #eee; padding: 40px 0; margin-bottom: 40px; }
+        .brand-logo-img { height: 80px; width: auto; object-fit: contain; }
+        .car-price { color: #ff4d4d; font-weight: 800; font-size: 1.1rem; }
+        .status-badge { font-size: 10px; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; font-weight: bold; }
+    </style>
+</head>
+<body class="bg-light">
+
+    <!-- Header Wrapper (Loaded by loader.js) -->
+    <div id="header-wrapper"></div>
+
+    <!-- Brand Header Section -->
+    <div class="brand-hero shadow-sm">
+        <div class="container text-center">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center small mb-3">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/brands/">Brands</a></li>
+                    <li class="breadcrumb-item active text-muted">Brand Name</li>
+                </ol>
+            </nav>
+            <img src="../assets/img/brands/logo-placeholder.png" class="brand-logo-img mb-3" alt="Brand Logo">
+            <h1 class="fw-bold display-5">Brand Name <span class="text-danger">Cars</span></h1>
+            <p class="text-muted mx-auto" style="max-width: 700px;">Explore the latest lineup of Brand Name. From premium SUVs to efficient hatchbacks, find the perfect car that suits your lifestyle.</p>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="row">
+            <!-- Left Side: Brand Content -->
+            <div class="col-lg-8">
+                
+                <!-- 1. All Models Grid -->
+                <h3 class="fw-bold mb-4 border-start border-danger border-5 ps-3">Popular Models</h3>
+                <div class="row g-4 mb-5">
+                    
+                    <!-- Example Car Model 1 -->
+                    <div class="col-md-6">
+                        <div class="card h-100 border-0 shadow-sm overflow-hidden rounded-4">
+                            <div class="position-relative">
+                                <img src="../assets/img/cars/brand/car-1.webp" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Car Model">
+                                <span class="position-absolute top-0 start-0 m-3 badge bg-success status-badge">Best Seller</span>
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="fw-bold mb-1">Car Model Name</h5>
+                                <p class="car-price mb-3">₹8.50 Lakh - ₹15.00 Lakh*</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="small text-muted">Petrol / Diesel</span>
+                                    <a href="#" class="btn btn-outline-danger btn-sm rounded-pill px-3 fw-bold">View Specs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Example Car Model 2 (Upcoming) -->
+                    <div class="col-md-6">
+                        <div class="card h-100 border-0 shadow-sm overflow-hidden rounded-4">
+                            <div class="position-relative">
+                                <img src="../assets/img/cars/brand/car-2.webp" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Car Model">
+                                <span class="position-absolute top-0 start-0 m-3 badge bg-warning text-dark status-badge">Upcoming</span>
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="fw-bold mb-1">Upcoming Model Name</h5>
+                                <p class="car-price mb-3">₹12.00 Lakh (Expected)*</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="small text-muted">Launch: May 2025</span>
+                                    <a href="#" class="btn btn-outline-danger btn-sm rounded-pill px-3 fw-bold">Notify Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 2. Brand Price List Table -->
+                <h3 class="fw-bold mb-4 border-start border-danger border-5 ps-3">Brand Name Car Price List 2026</h3>
+                <div class="table-responsive mb-5">
+                    <table class="table table-hover bg-white shadow-sm rounded border">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Car Model</th>
+                                <th>Price Range (Ex-showroom)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fw-bold">Model A</td>
+                                <td class="text-danger fw-bold">₹6.99 Lakh - ₹11.20 Lakh</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Model B (SUV)</td>
+                                <td class="text-danger fw-bold">₹13.50 Lakh - ₹21.00 Lakh</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">Electric Model X</td>
+                                <td class="text-danger fw-bold">₹15.99 Lakh - ₹19.50 Lakh</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="small text-muted">*Prices are indicative and may vary by city and dealership.</p>
+                </div>
+
+                <!-- 3. Brand Introduction Text -->
+                <div class="bg-white p-4 rounded-4 shadow-sm mb-5">
+                    <h4 class="fw-bold mb-3">About Brand Name</h4>
+                    <p class="text-secondary">Brand Name has been a pioneer in the Indian automotive market for decades. Known for their rugged build quality and innovative technology, they have consistently delivered vehicles that resonate with Indian consumers. From affordable hatchbacks to premium luxury SUVs, Brand Name continues to push the boundaries of excellence.</p>
+                </div>
+
+            </div>
+
+            <!-- Right Side: Sidebar (Loaded by loader.js) -->
+            <div class="col-lg-4">
+                <div id="sidebar-wrapper"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Wrapper (Loaded by loader.js) -->
+    <div id="footer-wrapper"></div>
+
+    <!-- JS Scripts (Going back 1 level: ../ to reach assets) -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/loader.js"></script>
+</body>
+</html>

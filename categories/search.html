@@ -1,1 +1,121 @@
 <!-- categories/search.html placeholder -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results | Auto News</title>
+    
+    <!-- CSS Links (Going back 1 level: ../ to reach assets) -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/main-style.css">
+</head>
+<body class="bg-light">
+
+    <!-- Header Wrapper -->
+    <div id="header-wrapper"></div>
+
+    <main class="container my-5" style="min-height: 60vh;">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="fw-bold mb-4">Search Results for: <span id="search-query" class="text-danger">...</span></h2>
+                
+                <!-- Results Grid -->
+                <div id="search-results-grid" class="row g-4">
+                    <!-- Results will be injected here by JavaScript -->
+                    <div class="text-center py-5" id="loading-spinner">
+                        <div class="spinner-border text-danger" role="status"></div>
+                        <p class="mt-2 text-muted">Searching the garage...</p>
+                    </div>
+                </div>
+
+                <!-- No Results Message -->
+                <div id="no-results" class="text-center py-5 d-none">
+                    <img src="../assets/img/no-results.png" alt="Not Found" style="width: 150px; opacity: 0.5;">
+                    <h4 class="mt-4 fw-bold">Oops! No cars found.</h4>
+                    <p class="text-muted">Try searching for something else like "Tata", "Mahindra", or "EV".</p>
+                    <a href="/" class="btn btn-danger rounded-pill px-4">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Wrapper -->
+    <div id="footer-wrapper"></div>
+
+    <!-- JS Scripts -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/loader.js"></script>
+
+    <script>
+        // 1. DATA: Add all your 1500 blogs details here in this array
+        // (जैसे-जैसे तुम नए ब्लॉग लिखोगे, उनका डेटा यहाँ बढ़ाते रहना)
+        const carData = [
+            {
+                title: "Tata Sierra EV 2026",
+                desc: "The legendary Sierra returns with 500km range and premium tech.",
+                link: "/brands/tata/sierra-ev.html",
+                img: "../assets/img/cars/tata/sierra.webp",
+                tags: ["tata", "sierra", "ev", "electric", "suv"]
+            },
+            {
+                title: "Mahindra Thar Roxx",
+                desc: "The ultimate 5-door family off-roader with 4x4 capability.",
+                link: "/brands/mahindra/thar-roxx.html",
+                img: "../assets/img/cars/mahindra/thar-roxx.webp",
+                tags: ["mahindra", "thar", "roxx", "4x4", "suv", "5 door"]
+            },
+            {
+                title: "Tata Nexon EV",
+                desc: "India's best selling electric SUV with advanced features.",
+                link: "/brands/tata/nexon-ev.html",
+                img: "../assets/img/cars/tata/nexon.webp",
+                tags: ["tata", "nexon", "ev", "electric"]
+            }
+            // Future blogs data add karte rahein...
+        ];
+
+        // 2. SEARCH LOGIC
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const query = urlParams.get('q')?.toLowerCase() || "";
+            document.getElementById('search-query').innerText = query;
+
+            const resultsGrid = document.getElementById('search-results-grid');
+            const noResults = document.getElementById('no-results');
+            const spinner = document.getElementById('loading-spinner');
+
+            // Filtering the data
+            const filteredCars = carData.filter(car => {
+                return car.title.toLowerCase().includes(query) || 
+                       car.tags.some(tag => tag.includes(query));
+            });
+
+            spinner.classList.add('d-none'); // Hide loading
+
+            if (filteredCars.length > 0) {
+                resultsGrid.innerHTML = ""; // Clear grid
+                filteredCars.forEach(car => {
+                    const cardHTML = `
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 shadow-sm overflow-hidden rounded-4">
+                                <img src="${car.img}" class="card-img-top" style="height: 180px; object-fit: cover;" alt="${car.title}">
+                                <div class="card-body p-4">
+                                    <h5 class="fw-bold">${car.title}</h5>
+                                    <p class="text-secondary small">${car.desc}</p>
+                                    <a href="${car.link}" class="btn btn-outline-danger btn-sm rounded-pill fw-bold">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    resultsGrid.innerHTML += cardHTML;
+                });
+            } else {
+                resultsGrid.classList.add('d-none');
+                noResults.classList.remove('d-none');
+            }
+        });
+    </script>
+</body>
+</html>
