@@ -1,33 +1,93 @@
-
-
-
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main Pages -->
-  <url><loc>https://carsweb-tau.vercel.app/</loc><priority>1.0</priority></url>
-  <url><loc>https://carsweb-tau.vercel.app/emi-calculator.html</loc><priority>0.9</priority></url>
   
-  <!-- Legal Pages -->
-  <url><loc>https://carsweb-tau.vercel.app/about-us.html</loc><priority>0.5</priority></url>
-  <url><loc>https://carsweb-tau.vercel.app/contact.html</loc><priority>0.5</priority></url>
-  <url><loc>https://carsweb-tau.vercel.app/privacy-policy.html</loc><priority>0.5</priority></url>
-  <url><loc>https://carsweb-tau.vercel.app/terms.html</loc><priority>0.5</priority></url>
-  <url><loc>https://carsweb-tau.vercel.app/disclaimer.html</loc><priority>0.5</priority></url>
+  <!-- 1. Main Pages -->
+  <url>
+    <loc>https://vishtechcars.com/</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://vishtechcars.com/emi-calculator.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 2. Legal Pages (Trust Pages) -->
+  <url>
+    <loc>https://vishtechcars.com/about-us.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://vishtechcars.com/contact.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://vishtechcars.com/privacy-policy.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://vishtechcars.com/terms.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://vishtechcars.com/disclaimer.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.5</priority>
+  </url>
 
-  <!-- Categories -->
-  <url><loc>https://carsweb-tau.vercel.app/categories/upcoming-cars.html</loc><priority>0.8</priority></url>
-  <url><loc>https://carsweb-tau.vercel.app/categories/electric-vehicles.html</loc><priority>0.8</priority></url>
-  <url><loc>https://carsweb-tau.vercel.app/categories/comparisons.html</loc><priority>0.8</priority></url>
+  <!-- 3. Categories -->
+  <url>
+    <loc>https://vishtechcars.com/categories/upcoming-cars.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vishtechcars.com/categories/electric-vehicles.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vishtechcars.com/categories/comparisons.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.8</priority>
+  </url>
 
-  <!-- Brands -->
-  <url><loc>https://carsweb-tau.vercel.app/brands/tata/index.html</loc><priority>0.7</priority></url>
-  <url><loc>https://carsweb-tau.vercel.app/brands/mahindra/index.html</loc><priority>0.7</priority></url>
-  <url><loc>https://carsweb-tau.vercel.app/brands/hyundai/index.html</loc><priority>0.7</priority></url>
-  <url><loc>https://carsweb-tau.vercel.app/brands/maruti/index.html</loc><priority>0.7</priority></url>
+  <!-- 4. Brands Main Pages -->
+  <url>
+    <loc>https://vishtechcars.com/brands/tata/index.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vishtechcars.com/brands/mahindra/index.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vishtechcars.com/brands/hyundai/index.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vishtechcars.com/brands/maruti/index.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.7</priority>
+  </url>
 
-  <!-- Specific Car Blogs (Jaise naye likhte jao yahan add karte jao) -->
-  <url><loc>https://carsweb-tau.vercel.app/brands/mahindra/thar-roxx.html</loc><priority>0.8</priority></url>
-  <url><loc>https://carsweb-tau.vercel.app/brands/tata/sierra-ev.html</loc><priority>0.8</priority></url>
+  <!-- 5. Specific Blog Posts -->
+  <url>
+    <loc>https://vishtechcars.com/brands/mahindra/thar-roxx.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://vishtechcars.com/brands/tata/sierra-ev.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <priority>0.9</priority>
+  </url>
 </urlset>
