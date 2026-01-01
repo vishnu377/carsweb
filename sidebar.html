@@ -1,29 +1,124 @@
-<!-- sidebar.html placeholder -->
- <div class="sticky-top" style="top: 100px;">
-    <!-- ADVERTISING BOX -->
-    <div class="card border-0 bg-light mb-4 py-5 text-center shadow-sm">
-        <div class="card-body">
-            <small class="text-muted d-block mb-3 text-uppercase fw-bold" style="font-size: 10px; letter-spacing: 1px;">Advertisement</small>
-            <div class="bg-white border p-4 text-muted small">AdSense Ad Space</div>
-        </div>
-    </div>
+<!-- Sidebar Content Start -->
+<div class="sticky-top" style="top: 100px;">
+    
+    <!-- 1. EMI CALCULATOR WIDGET -->
+   
 
-    <!-- TRENDING SECTION -->
-    <div class="card border-0 shadow-sm overflow-hidden">
-        <div class="card-header bg-dark text-white fw-bold py-3 border-0 text-uppercase" style="font-size: 12px;">Hot Trending Now</div>
-        <div class="list-group list-group-flush">
-            <a href="/brands/tata/sierra-ev.html" class="list-group-item list-group-item-action py-3">
-                <div class="fw-bold small">Tata Sierra EV 2025 Revealed</div>
-                <div class="text-muted" style="font-size: 11px;">Expected Range: 500+ KM</div>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action py-3">
-                <div class="fw-bold small">Mahindra Thar Roxx 5-Door Review</div>
-                <div class="text-muted" style="font-size: 11px;">Prices Start from ₹12.99 Lakh</div>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action py-3">
-                <div class="fw-bold small">New Gen Maruti Swift Facelift</div>
-                <div class="text-muted" style="font-size: 11px;">Top Features & Mileage Inside</div>
-            </a>
+
+<div class="card border-0 shadow-sm mb-4 rounded-4 overflow-hidden">
+    <div class="card-header bg-dark text-white fw-bold py-3 text-uppercase small">
+        <i class="fas fa-calculator me-2 text-danger"></i> Quick EMI Check
+    </div>
+    <div class="card-body bg-white p-3">
+        <div class="mb-2">
+            <label class="small fw-bold text-muted">Amount (₹)</label>
+            <!-- oninput lagane se ye apne aap calculate karega -->
+            <input type="number" id="loanAmount" oninput="autoEMI()" class="form-control form-control-sm shadow-none" placeholder="e.g. 500000">
+        </div>
+        <div class="row g-2 mb-3">
+            <div class="col-6">
+                <label class="small fw-bold text-muted">Interest %</label>
+                <input type="number" id="interestRate" oninput="autoEMI()" class="form-control form-control-sm shadow-none" placeholder="8.5">
+            </div>
+            <div class="col-6">
+                <label class="small fw-bold text-muted">Years</label>
+                <input type="number" id="loanTenure" oninput="autoEMI()" class="form-control form-control-sm shadow-none" placeholder="5">
+            </div>
+        </div>
+        
+        <!-- Result Box (Hamesha dikhega ya auto-update hoga) -->
+        <div id="emiResult" class="p-2 border rounded-3 text-center bg-light mb-2">
+            <p class="mb-0 small text-muted" style="font-size: 10px;">Estimated Monthly EMI</p>
+            <h4 class="fw-bold text-danger mb-0">₹<span id="emiValue">0</span></h4>
+        </div>
+
+        <div class="text-center">
+            <a href="/emi-calculator.html" class="small text-muted fw-bold text-decoration-none border-bottom border-danger">Detailed Calculator →</a>
         </div>
     </div>
 </div>
+
+
+    <!-- 2. QUICK CAR COMPARE WIDGET -->
+    <div class="card border-0 shadow-sm mb-4 rounded-4 overflow-hidden text-center">
+        <div class="card-header bg-danger text-white fw-bold py-3 text-uppercase small">
+            <i class="fas fa-shuffle me-2"></i> Compare Your Fav Cars
+        </div>
+        <div class="card-body bg-light p-3">
+            <select class="form-select form-select-sm mb-2 shadow-none border-0 py-2">
+                <option selected disabled>Select Car 1</option>
+                <option>Tata Nexon</option>
+                <option>Mahindra XUV 3XO</option>
+                <option>Hyundai Creta</option>
+            </select>
+            <div class="small fw-bold text-muted mb-2">VS</div>
+            <select class="form-select form-select-sm mb-3 shadow-none border-0 py-2">
+                <option selected disabled>Select Car 2</option>
+                <option>Maruti Brezza</option>
+                <option>Kia Sonet</option>
+                <option>Mahindra Thar</option>
+            </select>
+            <button class="btn btn-dark btn-sm w-100 rounded-pill fw-bold py-2">Compare Now</button>
+        </div>
+    </div>
+
+    <!-- 3. HOT TRENDING NOW -->
+    <div class="card border-0 shadow-sm rounded-4 overflow-hidden mb-4">
+        <div class="card-header bg-dark text-white fw-bold py-3 text-uppercase small">
+            <i class="fas fa-fire me-2 text-warning"></i> Hot Trending Now
+        </div>
+        <div class="list-group list-group-flush">
+            <a href="/brands/tata/sierra-ev.html" class="list-group-item list-group-item-action py-3">
+                <div class="d-flex align-items-center">
+                    <img src="/assets/img/cars/tata/sierra-thumb.webp" class="rounded me-3" style="width: 65px; height: 50px; object-fit: cover;" alt="Sierra">
+                    <div>
+                        <div class="fw-bold small lh-sm mb-1">Tata Sierra EV Revealed</div>
+                        <div class="text-danger fw-bold" style="font-size: 10px;">Range: 500+ KM</div>
+                    </div>
+                </div>
+            </a>
+            <a href="/brands/mahindra/thar-roxx.html" class="list-group-item list-group-item-action py-3">
+                <div class="d-flex align-items-center">
+                    <img src="/assets/img/cars/mahindra/thar-thumb.webp" class="rounded me-3" style="width: 65px; height: 50px; object-fit: cover;" alt="Thar">
+                    <div>
+                        <div class="fw-bold small lh-sm mb-1">Thar Roxx 5-Door Price</div>
+                        <div class="text-danger fw-bold" style="font-size: 10px;">Starts ₹12.99 Lakh</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- 4. AD SPACE -->
+    <div class="card border-0 bg-white text-center shadow-sm p-4 rounded-4 mb-4 border border-light">
+        <small class="text-muted d-block mb-2 text-uppercase fw-bold" style="font-size: 10px;">Advertisement</small>
+        <div class="bg-light border border-dashed p-4 text-muted small rounded-3" style="border-style: dashed !important;">
+            <i class="fas fa-rectangle-ad d-block fs-2 mb-2"></i> AdSense Ad Space
+        </div>
+    </div>
+
+</div>
+
+<!-- EMI Logic -->
+
+
+
+
+<script>
+function autoEMI() {
+    let p = document.getElementById('loanAmount').value;
+    let r_input = document.getElementById('interestRate').value;
+    let n_input = document.getElementById('loanTenure').value;
+
+    if (p && r_input && n_input) {
+        let principal = parseFloat(p);
+        let r = parseFloat(r_input) / 12 / 100;
+        let n = parseFloat(n_input) * 12;
+
+        let emi = (principal * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+        document.getElementById('emiValue').innerText = Math.round(emi).toLocaleString('en-IN');
+    } else {
+        document.getElementById('emiValue').innerText = "0";
+    }
+}
+</script>

@@ -1,1 +1,5 @@
 <!-- robots.txt placeholder -->
+User-agent: *
+Allow: /
+
+Sitemap: https://carsweb-tau.vercel.app/sitemap.xml

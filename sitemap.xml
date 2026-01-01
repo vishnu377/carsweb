@@ -1,15 +1,33 @@
-<!-- sitemap.xml placeholder -->
+
+
+
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://yourdomain.com/</loc>
-    <lastmod>2025-12-31</lastmod>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/brands/tata/sierra-ev.html</loc>
-    <lastmod>2025-12-31</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <!-- Keep adding your 1500 links here -->
+  <!-- Main Pages -->
+  <url><loc>https://carsweb-tau.vercel.app/</loc><priority>1.0</priority></url>
+  <url><loc>https://carsweb-tau.vercel.app/emi-calculator.html</loc><priority>0.9</priority></url>
+  
+  <!-- Legal Pages -->
+  <url><loc>https://carsweb-tau.vercel.app/about-us.html</loc><priority>0.5</priority></url>
+  <url><loc>https://carsweb-tau.vercel.app/contact.html</loc><priority>0.5</priority></url>
+  <url><loc>https://carsweb-tau.vercel.app/privacy-policy.html</loc><priority>0.5</priority></url>
+  <url><loc>https://carsweb-tau.vercel.app/terms.html</loc><priority>0.5</priority></url>
+  <url><loc>https://carsweb-tau.vercel.app/disclaimer.html</loc><priority>0.5</priority></url>
+
+  <!-- Categories -->
+  <url><loc>https://carsweb-tau.vercel.app/categories/upcoming-cars.html</loc><priority>0.8</priority></url>
+  <url><loc>https://carsweb-tau.vercel.app/categories/electric-vehicles.html</loc><priority>0.8</priority></url>
+  <url><loc>https://carsweb-tau.vercel.app/categories/comparisons.html</loc><priority>0.8</priority></url>
+
+  <!-- Brands -->
+  <url><loc>https://carsweb-tau.vercel.app/brands/tata/index.html</loc><priority>0.7</priority></url>
+  <url><loc>https://carsweb-tau.vercel.app/brands/mahindra/index.html</loc><priority>0.7</priority></url>
+  <url><loc>https://carsweb-tau.vercel.app/brands/hyundai/index.html</loc><priority>0.7</priority></url>
+  <url><loc>https://carsweb-tau.vercel.app/brands/maruti/index.html</loc><priority>0.7</priority></url>
+
+  <!-- Specific Car Blogs (Jaise naye likhte jao yahan add karte jao) -->
+  <url><loc>https://carsweb-tau.vercel.app/brands/mahindra/thar-roxx.html</loc><priority>0.8</priority></url>
+  <url><loc>https://carsweb-tau.vercel.app/brands/tata/sierra-ev.html</loc><priority>0.8</priority></url>
 </urlset>
