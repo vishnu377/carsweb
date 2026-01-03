@@ -1,5 +1,6 @@
 
 
+
 document.addEventListener("DOMContentLoaded", function() {
     
     function loadComponent(id, fileName) {
@@ -23,3 +24,32 @@ document.addEventListener("DOMContentLoaded", function() {
     loadComponent('footer-wrapper', 'footer.html');
     loadComponent('sidebar-wrapper', 'sidebar.html');
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+/* Global Styles */
+body { font-family: 'Poppins', sans-serif; background-color: #f8f9fa; color: #333; }
+a { text-decoration: none; transition: 0.3s; }
+
+/* Section Title */
+.section-title, h3.fw-bold { 
+    font-weight: 700; 
+    border-left: 5px solid #e63946; 
+    padding-left: 15px; 
+    margin: 35px 0 20px; 
+    text-transform: uppercase; 
+    font-size: 1.1rem; 
+}
+
+/* Navbar/Header Placeholder Fix */
+#header-wrapper { min-height: 70px; background: #fff; }
+
+/* Cards & Images */
+.custom-card, .card { 
+    border: none !important; 
+    border-radius: 15px !important; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
+    transition: 0.3s; 
+}
+.card:hover { transform: translateY(-5px); box-shadow: 0 12px 25px rgba(0,0,0,0.1); }
+.rounded-4 { border-radius: 20px !important; }
+img { max-width: 100%; height: auto; }
+
+/* Brand Header */
+.brand-header { background: #fff; padding: 40px 0; border-bottom: 1px solid #eee; margin-bottom: 40px; }
+.hyundai-logo, .mahindra-logo { height: 50px; width: auto; }
+
+/* Table Styling */
+.table { border-radius: 10px; overflow: hidden; background: #fff; }
+.table-dark { background-color: #002c5f !important; border: none; }
+
+/* Sidebar Widgets */
+.sticky-top { top: 90px !important; }
+.widget-title { background: #1a1a1a; color: #fff; padding: 12px 20px; border-radius: 10px 10px 0 0; font-size: 0.9rem; font-weight: 600; margin-bottom: 0; }
+.widget-body { background: #fff; padding: 20px; border-radius: 0 0 10px 10px; border: 1px solid #eee; margin-bottom: 25px; }
+
+/* EMI Calculator Colors */
+.emi-card, .emi-header { border-radius: 15px; }
+.text-danger { color: #e63946 !important; }
+
+/* Breadcrumb */
+.breadcrumb-item a { color: #e63946; font-weight: 600; }
