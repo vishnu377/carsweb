@@ -3,92 +3,68 @@
 
   <!-- 1. Home & Main Pages -->
   <url>
-    <loc>https://vishtechcars.com/</loc>
+    <loc>https://www.vishtechcars.com/</loc>
     <lastmod>2026-01-06</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://vishtechcars.com/emi-calculator.html</loc>
+    <loc>https://www.vishtechcars.com/emi-calculator.html</loc>
     <lastmod>2026-01-06</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- 2. Category Pages -->
-  <url>
-    <loc>https://vishtechcars.com/categories/upcoming-cars.html</loc>
-    <lastmod>2026-01-06</lastmod>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vishtechcars.com/categories/electric-vehicles.html</loc>
-    <lastmod>2026-01-06</lastmod>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vishtechcars.com/categories/luxury-cars.html</loc>
-    <lastmod>2026-01-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vishtechcars.com/categories/comparisons.html</loc>
-    <lastmod>2026-01-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vishtechcars.com/categories/under-10-lakh.html</loc>
-    <lastmod>2026-01-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vishtechcars.com/categories/under-20-lakh.html</loc>
-    <lastmod>2026-01-06</lastmod>
-    <priority>0.8</priority>
-  </url>
+  <url><loc>https://www.vishtechcars.com/categories/upcoming-cars.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.vishtechcars.com/categories/electric-vehicles.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.vishtechcars.com/categories/luxury-cars.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.vishtechcars.com/categories/comparisons.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.vishtechcars.com/categories/under-10-lakh.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.vishtechcars.com/categories/under-20-lakh.html</loc><priority>0.8</priority></url>
 
   <!-- 3. Hyundai Brands -->
-  <url><loc>https://vishtechcars.com/brands/hyundai/index.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/hyundai/creta.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/hyundai/creta-ev.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/hyundai/exter.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/hyundai/verna.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/hyundai/honda-amaze-2026-launch.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/hyundai/index.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/hyundai/creta.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/hyundai/creta-ev.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/hyundai/exter.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/hyundai/verna.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/hyundai/honda-amaze-2026-launch.html</loc></url>
 
   <!-- 4. Mahindra Brands -->
-  <url><loc>https://vishtechcars.com/brands/mahindra/index.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/mahindra/thar-roxx.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/mahindra/xuv3xo.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/mahindra/index.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/mahindra/thar-roxx.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/mahindra/xuv3xo.html</loc></url>
 
   <!-- 5. Maruti Brands -->
-  <url><loc>https://vishtechcars.com/brands/maruti/index.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/maruti/evx.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/maruti/fronx.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/maruti/grand-vitara.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/maruti/swift.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/maruti/index.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/maruti/evx.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/maruti/fronx.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/maruti/grand-vitara.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/maruti/swift.html</loc></url>
 
   <!-- 6. Skoda Brands -->
-  <url><loc>https://vishtechcars.com/brands/skoda/index.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/skoda/kodiaq.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/skoda/kushaq.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/skoda/kylaq.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/skoda/slavia.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/skoda/index.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/skoda/kodiaq.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/skoda/kushaq.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/skoda/kylaq.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/skoda/slavia.html</loc></url>
 
   <!-- 7. Tata Brands -->
-  <url><loc>https://vishtechcars.com/brands/tata/index.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/tata/nexon.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/tata/punch.html</loc></url>
-  <url><loc>https://vishtechcars.com/brands/tata/sierra-ev.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/tata/index.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/tata/nexon.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/tata/punch.html</loc></url>
+  <url><loc>https://www.vishtechcars.com/brands/tata/sierra-ev.html</loc></url>
 
   <!-- 8. Web Stories -->
   <url>
-    <loc>https://vishtechcars.com/web-stories/thar-roxx-story.html</loc>
+    <loc>https://www.vishtechcars.com/web-stories/thar-roxx-story.html</loc>
     <priority>0.7</priority>
   </url>
 
   <!-- 9. Legal Pages -->
-  <url><loc>https://vishtechcars.com/about-us.html</loc><priority>0.3</priority></url>
-  <url><loc>https://vishtechcars.com/contact.html</loc><priority>0.3</priority></url>
-  <url><loc>https://vishtechcars.com/privacy-policy.html</loc><priority>0.3</priority></url>
-  <url><loc>https://vishtechcars.com/terms.html</loc><priority>0.3</priority></url>
-  <url><loc>https://vishtechcars.com/disclaimer.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.vishtechcars.com/about-us.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.vishtechcars.com/contact.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.vishtechcars.com/privacy-policy.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.vishtechcars.com/terms.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.vishtechcars.com/disclaimer.html</loc><priority>0.3</priority></url>
 
 </urlset>
