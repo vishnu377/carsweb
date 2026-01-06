@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vishtechcars.com/sitemap.xml
+Sitemap: https://www.vishtechcars.com/sitemap.xml
