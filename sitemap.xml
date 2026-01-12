@@ -12,12 +12,24 @@
     <lastmod>2026-01-10</lastmod>
     <priority>0.9</priority>
   </url>
+ <!-- Comparison Category Main Page -->
+  <url>
+    <loc>https://vitechcars.com/categories/comparison/comparison.html</loc>
+    <lastmod>2026-01-13</lastmod>
+    <priority>0.80</priority>
+  </url>
 
+  <!-- Today's Viral Blog Post (Tata Punch vs Maruti Fronx) -->
+  <url>
+    <loc>https://vitechcars.com/categories/comparison/tata-punch-vs-maruti-fronx-2026.html</loc>
+    <lastmod>2026-01-13</lastmod>
+    <priority>0.90</priority> <!-- High priority because it's a hot topic -->
+  </url>
   <!-- 2. Category Pages -->
   <url><loc>https://www.vishtechcars.com/categories/upcoming-cars.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/categories/electric-vehicles.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/categories/luxury-cars.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.vishtechcars.com/categories/comparisons.html</loc><priority>0.7</priority></url>
+  
   <url><loc>https://www.vishtechcars.com/categories/under-10-lakh.html</loc><priority>0.7</priority></url>
   <url><loc>https://www.vishtechcars.com/categories/under-20-lakh.html</loc><priority>0.7</priority></url>
 
