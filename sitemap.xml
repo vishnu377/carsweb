@@ -14,14 +14,14 @@
   </url>
  <!-- Comparison Category Main Page -->
   <url>
-    <loc>https://www.vishtechcars.com/categories/comparison/comparison.html</loc>
+    <loc>https://www.vishtechcars.com/categories/comparisons/</loc>
     <lastmod>2026-01-13</lastmod>
     <priority>0.80</priority>
   </url>
 
   <!-- Today's Viral Blog Post (Tata Punch vs Maruti Fronx) -->
   <url>
-    <loc>https://www.vishtechcars.com/categories/comparison/tata-punch-2026-vs-maruti-fronx-hybrid.html</loc>
+    <loc>https://www.vishtechcars.com/categories/comparisons/tata-punch-2026-vs-maruti-fronx-hybrid.html</loc>
     <lastmod>2026-01-13</lastmod>
     <priority>0.90</priority> <!-- High priority because it's a hot topic -->
   </url>
