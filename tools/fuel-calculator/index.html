@@ -1,0 +1,181 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuel Cost Calculator | VishTech Cars</title>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1852607501642481" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .calc-card { border-radius: 20px; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .result-box { border-radius: 15px; padding: 20px; color: white; }
+        .bg-ev { background: #28a745; }
+        .bg-fuel { background: #343a40; }
+        input[type=range] { accent-color: #e63946; }
+    </style>
+</head>
+<body class="bg-light">
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold">Smart <span class="text-danger">Fuel Calculator</span></h1>
+        <p class="text-muted">Compare Petrol, Diesel, CNG and EV costs instantly.</p>
+    </div>
+
+    <div class="row g-4">
+        <!-- Input Section -->
+        <div class="col-lg-4">
+            <div class="card calc-card p-4">
+                <h5 class="fw-bold mb-4 border-bottom pb-2">Vehicle Details</h5>
+                
+                <div class="mb-3">
+                    <label class="form-label small fw-bold">Select Fuel Type</label>
+                    <select id="fuelType" class="form-select" onchange="updateDefaultPrice()">
+                        <option value="petrol">Petrol</option>
+                        <option value="diesel">Diesel</option>
+                        <option value="cng">CNG</option>
+                    </select>
+                </div>
+
+                <div class="mb-4">
+                    <label class="d-flex justify-content-between small fw-bold">
+                        Daily Run: <span class="text-danger"><b id="valDaily">50</b> km</span>
+                    </label>
+                    <input type="range" id="dailyKm" min="5" max="300" value="50" class="form-range" oninput="calculate()">
+                </div>
+
+                <div class="mb-4">
+                    <label class="d-flex justify-content-between small fw-bold">
+                        Mileage: <span class="text-danger"><b id="valMileage">15</b> kmpl</span>
+                    </label>
+                    <input type="range" id="mileage" min="5" max="40" value="15" class="form-range" oninput="calculate()">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label small fw-bold">Fuel Price (₹/Ltr)</label>
+                    <input type="number" id="fuelPrice" value="96.5" class="form-control" oninput="calculate()">
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="col-lg-8">
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <div class="result-box bg-fuel h-100">
+                        <p class="small opacity-75 mb-1">Monthly Fuel Expense</p>
+                        <h2 class="fw-bold" id="fuelTotal">₹0</h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="result-box bg-ev h-100">
+                        <p class="small opacity-75 mb-1">Monthly EV Expense</p>
+                        <h2 class="fw-bold" id="evTotal">₹0</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card calc-card p-4 text-center border-top border-5 border-success">
+                <p class="text-muted mb-1">Total Monthly Savings with EV</p>
+                <h1 class="display-4 fw-black text-success mb-4" id="resMonthly">₹0</h1>
+                
+                <div class="row border-top pt-4">
+                    <div class="col-4">
+                        <p class="small text-muted mb-0">Yearly Saving</p>
+                        <h5 class="fw-bold" id="resYearly">₹0</h5>
+                    </div>
+                    <div class="col-4">
+                        <p class="small text-muted mb-0">10 Year Saving</p>
+                        <h5 class="fw-bold" id="resLife">₹0</h5>
+                    </div>
+                    <div class="col-4">
+                        <p class="small text-muted mb-0">Trees Saved</p>
+                        <h5 class="fw-bold text-primary"><i class="fas fa-tree"></i> <span id="resTrees">0</span></h5>
+                    </div>
+                </div>
+            </div>
+            
+            <button onclick="shareOnWhatsApp()" class="btn btn-success w-100 mt-4 py-3 rounded-pill fw-bold shadow">
+                <i class="fab fa-whatsapp me-2"></i> Share Savings on WhatsApp
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+const fuelData = {
+    petrol: { price: 96.5, maint: 0.80 },
+    diesel: { price: 89.2, maint: 1.20 },
+    cng: { price: 82.0, maint: 0.90 }
+};
+
+function updateDefaultPrice() {
+    const type = document.getElementById('fuelType').value;
+    document.getElementById('fuelPrice').value = fuelData[type].price;
+    calculate();
+}
+
+function calculate() {
+    const fuelType = document.getElementById('fuelType').value;
+    const dailyKm = parseFloat(document.getElementById('dailyKm').value);
+    const mileage = parseFloat(document.getElementById('mileage').value);
+    const fuelPrice = parseFloat(document.getElementById('fuelPrice').value);
+
+    document.getElementById('valDaily').innerText = dailyKm;
+    document.getElementById('valMileage').innerText = mileage;
+
+    const monthlyKm = dailyKm * 30;
+    const fuelGrandTotal = ((monthlyKm / mileage) * fuelPrice) + (monthlyKm * fuelData[fuelType].maint);
+    const evGrandTotal = ((monthlyKm / 7) * 8) + (monthlyKm * 0.20);
+
+    const monthlySavings = fuelGrandTotal - evGrandTotal;
+
+    document.getElementById('fuelTotal').innerText = '₹' + Math.round(fuelGrandTotal).toLocaleString('en-IN');
+    document.getElementById('evTotal').innerText = '₹' + Math.round(evGrandTotal).toLocaleString('en-IN');
+    document.getElementById('resMonthly').innerText = '₹' + Math.round(monthlySavings).toLocaleString('en-IN');
+    document.getElementById('resYearly').innerText = '₹' + Math.round(monthlySavings * 12).toLocaleString('en-IN');
+    document.getElementById('resLife').innerText = '₹' + Math.round(monthlySavings * 120).toLocaleString('en-IN');
+    document.getElementById('resTrees').innerText = (monthlyKm * 12 / 1000).toFixed(1);
+}
+
+function shareOnWhatsApp() {
+    const savings = document.getElementById('resYearly').innerText;
+    const text = `Maine VishtechCars par check kiya, EV se meri saal ki bachat ${savings} hogi! Check here: ${window.location.href}`;
+    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, '_blank');
+}
+calculate(); // Initial Load
+</script>
+</body>
+</html>
