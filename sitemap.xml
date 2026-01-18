@@ -76,6 +76,14 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Tata Punch vs Fronx Web Story -->
+  <url>
+    <loc>https://www.vishtechcars.com/web-stories/tata-punch-vs-fronx-story.html</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- 10. Legal Pages -->
   <url><loc>https://www.vishtechcars.com/about-us.html</loc><priority>0.3</priority></url>
   <url><loc>https://www.vishtechcars.com/contact.html</loc><priority>0.3</priority></url>
