@@ -25,6 +25,13 @@
     <lastmod>2026-01-13</lastmod>
     <priority>0.90</priority> <!-- High priority because it's a hot topic -->
   </url>
+
+
+    <url>
+    <loc>https://www.vishtechcars.com/categories/comparisons/maruti-dzire-hybrid-vs-honda-amaze-2026.html</loc>
+    <lastmod>2026-01-18</lastmod>
+    <priority>0.90</priority>
+  </url>
   <!-- 2. Category Pages -->
   <url><loc>https://www.vishtechcars.com/categories/upcoming-cars.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/categories/electric-vehicles.html</loc><priority>0.8</priority></url>
