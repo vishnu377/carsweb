@@ -72,7 +72,7 @@
   <!-- 7. Maruti -->
   <url><loc>https://www.vishtechcars.com/brands/maruti/</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/brands/maruti/evx.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.vishtechcars.com/brands/maruti/fronx.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.vishtechcars.com/brands/maruti/fronx.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/brands/maruti/swift.html</loc><priority>0.7</priority></url>
 <url><loc>https://www.vishtechcars.com/brands/maruti/grand-vitara.html</loc><priority>0.7</priority></url>
 
@@ -80,7 +80,7 @@
   <url><loc>https://www.vishtechcars.com/brands/skoda/</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/brands/skoda/kylaq.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/brands/skoda/slavia.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.vishtechcars.com/brands/skoda/kushaq.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.vishtechcars.com/brands/skoda/kushaq.html</loc><priority>0.8</priority></url>
 <url><loc>https://www.vishtechcars.com/brands/skoda/kodiaq.html</loc><priority>0.7</priority></url>
 
   <!-- 9. Web Stories -->
@@ -109,8 +109,8 @@
   <!-- 10. Legal Pages -->
   <url><loc>https://www.vishtechcars.com/about-us.html</loc><priority>0.3</priority></url>
   <url><loc>https://www.vishtechcars.com/contact.html</loc><priority>0.3</priority></url>
-  <url><loc>https://www.vishtechcars.com/privacy-policy.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.vishtechcars.com/privacy-policy.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/terms.html</loc><priority>0.3</priority></url>
-  <url><loc>https://www.vishtechcars.com/disclaimer.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.vishtechcars.com/disclaimer.html</loc><priority>0.8</priority></url>
 
 </urlset>
