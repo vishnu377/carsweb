@@ -1,4 +1,4 @@
-<!-- robots.txt placeholder -->
+# Google Adsense and Search Engine Access
 User-agent: *
 Allow: /
 
