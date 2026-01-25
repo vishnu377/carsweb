@@ -38,6 +38,13 @@
     <lastmod>2026-01-21</lastmod>
     <priority>0.90</priority>
   </url>
+
+  <url>
+    <loc>https://www.vishtechcars.com/categories/comparisons/maruti-ev-vs-mahindra-be6e-vs-tata-harrier-ev.html</loc>
+    <lastmod>2026-01-25</lastmod>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
   <!-- 2. Category Pages -->
   <url><loc>https://www.vishtechcars.com/categories/upcoming-cars.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/categories/electric-vehicles.html</loc><priority>0.8</priority></url>
