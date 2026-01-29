@@ -60,6 +60,13 @@
   <url><loc>https://www.vishtechcars.com/categories/under-10-lakh.html</loc><priority>0.7</priority></url>
   <url><loc>https://www.vishtechcars.com/categories/under-20-lakh.html</loc><priority>0.7</priority></url>
 
+  <url>
+  <loc>https://www.vishtechcars.com/toyota-mini-fortuner-launch-date-price-india-2026.html</loc>
+  <lastmod>2026-01-29</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>1.0</priority>
+</url>
+
   <!-- 3. Hyundai (Clean URLs) -->
   <url><loc>https://www.vishtechcars.com/brands/hyundai/</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/brands/hyundai/creta.html</loc><priority>0.8</priority></url>
