@@ -116,7 +116,12 @@
   <url><loc>https://www.vishtechcars.com/brands/skoda/kushaq.html</loc><priority>0.8</priority></url>
 <url><loc>https://www.vishtechcars.com/brands/skoda/kodiaq.html</loc><priority>0.7</priority></url>
 
-
+<url>
+  <loc>https://www.vishtechcars.com/brands/skoda/skoda-kylaq-2026-comprehensive-review-india.html</loc>
+  <lastmod>2026-02-11</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
 
 
 <!-- 9. Fortuner   (Clean URLs) -->
