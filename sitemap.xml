@@ -139,6 +139,13 @@
     <priority>0.8</priority>
 </url>
 
+
+   <!-- Maruti Brezza 2026 Facelift (New & Trending) -->
+    <url>
+        <loc>https://www.vishtechcars.com/brands/maruti/maruti-brezza-2026-facelift-launch-date-price-features.html</loc>
+        <lastmod>2026-03-13</lastmod>
+        <priority>1.0</priority>
+    </url>
   <!-- 8. Skoda -->
   <url><loc>https://www.vishtechcars.com/brands/skoda/</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/brands/skoda/kylaq.html</loc><priority>0.8</priority></url>
