@@ -103,6 +103,13 @@
     <priority>0.90</priority>
 </url>
 
+<url>
+    <loc>https://www.vishtechcars.com/brands/mahindra/mahindra-bolero-2026-review-price-features.html</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+</url>
+
   <!-- 6. Tata -->
   <url><loc>https://www.vishtechcars.com/brands/tata/</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/brands/tata/nexon.html</loc><priority>0.7</priority></url>
