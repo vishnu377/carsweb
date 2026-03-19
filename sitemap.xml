@@ -189,6 +189,46 @@
 </url>
 
 
+
+
+<!-- Kia Section -->
+<url>
+    <loc>https://www.vishtechcars.com/brands/kia/</loc>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://www.vishtechcars.com/brands/kia/kia-clavis-review-price-india.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+</url>
+
+
+
+
+<!-- MG Motors Section -->
+<url>
+    <loc>https://www.vishtechcars.com/brands/mg/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<!-- MG Hector 2026 Facelift (Trending) -->
+<url>
+    <loc>https://www.vishtechcars.com/brands/mg/hector.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<!-- MG Windsor EV (Electric Crossover) -->
+<url>
+    <loc>https://www.vishtechcars.com/brands/mg/windsor-ev.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+</url>
   
     
   
@@ -215,6 +255,9 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
+
+
+
 
   <!-- 10. Legal Pages -->
   <url><loc>https://www.vishtechcars.com/about-us.html</loc><priority>0.3</priority></url>
