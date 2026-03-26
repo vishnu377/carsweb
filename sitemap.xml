@@ -163,6 +163,17 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
 </url>
+
+
+
+
+<!-- Maruti Ertiga 2026 Family 7-Seater Post -->
+<url>
+    <loc>https://www.vishtechcars.com/brands/maruti/maruti-ertiga-2026-price-7-seater-mileage-india.html</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+</url>
   <!-- 8. Skoda -->
   <url><loc>https://www.vishtechcars.com/brands/skoda/</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/brands/skoda/kylaq.html</loc><priority>0.8</priority></url>
