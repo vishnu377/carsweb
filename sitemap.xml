@@ -398,6 +398,16 @@
 
 
 
+
+  <!-- Mercedes-Benz Brand Page -->
+<url>
+    <loc>https://www.vishtechcars.com/brands/mercedes</loc>
+    <priority>0.8</priority>
+</url>
+
+
+
+
   <!-- 10. Legal Pages -->
   <url><loc>https://www.vishtechcars.com/about-us.html</loc><priority>0.3</priority></url>
   <url><loc>https://www.vishtechcars.com/contact.html</loc><priority>0.3</priority></url>
