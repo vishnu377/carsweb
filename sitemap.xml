@@ -457,6 +457,22 @@
 
 
 
+
+<!-- Lamborghini Brand & Revuelto Viral Post -->
+  <url>
+    <loc>https://www.vishtechcars.com/brands/lamborghini/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vishtechcars.com/brands/lamborghini/lamborghini-revuelto-price-india-2026-mileage.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0
+
+
+
   <!-- 10. Legal Pages -->
   <url><loc>https://www.vishtechcars.com/about-us.html</loc><priority>0.3</priority></url>
   <url><loc>https://www.vishtechcars.com/contact.html</loc><priority>0.3</priority></url>
