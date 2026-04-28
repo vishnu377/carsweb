@@ -476,7 +476,36 @@
     <loc>https://www.vishtechcars.com/brands/lamborghini/lamborghini-revuelto-price-india-2026-mileage.html</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0
+    <priority>0.8</priority>
+    </url>
+
+
+
+
+
+    <!-- BMW M5 Post Sitemap Entry -->
+<url>
+  <loc>https://www.vishtechcars.com/brands/bmw/</loc>
+  <lastmod>2026-04-26</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+
+
+<!-- BMW M440i Convertible Viral Post -->
+<url>
+  <loc>https://www.vishtechcars.com/brands/bmw/bmw-m440i-convertible-price-in-india-2026.html</loc>
+  <lastmod>2026-04-26</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+
+
+
+
+
+
 
 
 
