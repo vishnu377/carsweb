@@ -115,12 +115,7 @@
     <priority>0.95</priority>
   </url>
 
-  <!-- Honda ZR-V India Launch Detail -->
-  <url>
-    <loc>https://www.vishtechcars.com/brands/honda/honda-zrv-india-launch-price-features.html</loc>
-    <lastmod>2025-01-22</lastmod>
-    <priority>0.85</priority>
-  </url>
+  
 
   <!-- 5. Mahindra -->
   <url><loc>https://www.vishtechcars.com/brands/mahindra/</loc><priority>0.8</priority></url>
