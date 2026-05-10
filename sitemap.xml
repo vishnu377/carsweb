@@ -254,6 +254,16 @@
 </url>
 
 
+
+<!-- Maruti Suzuki Invicto Hybrid Review Post -->
+<url>
+    <loc>https://www.vishtechcars.com/brands/maruti/maruti-invicto-hybrid-price-features.html</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+</url>
+
+
   <!-- 8. Skoda -->
   <url><loc>https://www.vishtechcars.com/brands/skoda/</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/brands/skoda/kylaq.html</loc><priority>0.8</priority></url>
