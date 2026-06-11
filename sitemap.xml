@@ -223,6 +223,18 @@
   <changefreq>daily</changefreq>
 </url>
 
+
+
+
+
+<!-- Viral Blog Post: Tata Altroz CNG 2026 Review — India's First CNG Automatic -->
+<url>
+  <loc>https://www.vishtechcars.com/brands/tata/tata-altroz-cng-2026-price-mileage-features.html</loc>
+  <lastmod>2026-11-06</lastmod>
+  <priority>1.0</priority> <!-- New viral content gets 1.0 priority for faster Google crawling -->
+  <changefreq>daily</changefreq>
+</url>
+
   <!-- 7. Maruti -->
   <url><loc>https://www.vishtechcars.com/brands/maruti/</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/brands/maruti/evx.html</loc><priority>0.8</priority></url>
