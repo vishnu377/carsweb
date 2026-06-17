@@ -62,6 +62,14 @@
     <priority>1.00</priority>
     <changefreq>weekly</changefreq>
   </url>
+
+
+  <url>
+    <loc>https://www.vishtechcars.com/categories/comparisons/tata-punch-cng-vs-nexon-cng-2026-comparison.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
   <!-- 2. Category Pages -->
   <url><loc>https://www.vishtechcars.com/categories/upcoming-cars.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.vishtechcars.com/categories/electric-vehicles.html</loc><priority>0.8</priority></url>
